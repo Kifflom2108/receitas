@@ -1,0 +1,27 @@
+body {
+    background-color: salmon;
+  }
+  .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   } 
+  .titulo img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  .subtitulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    font-size:small;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
