@@ -1,0 +1,21 @@
+.receitas-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center
+}
+.receita {
+	width: 350px;
+	height: auto;
+	margin: 10px;
+	padding: 10px;
+	background-color: wheat;
+	
+}
+
+.receita img{
+	width: 350px;
+	height: 200px;
+}
+.receita h2{
+	text-align: center;
+}

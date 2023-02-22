@@ -1,5 +1,6 @@
 body {
     background-color: salmon;
+    margin: 0;
   }
   .titulo {
     display: flex;
@@ -19,9 +20,9 @@ body {
   footer {
     background-color: black;
     color: white;
-    font-size:small;
-    position: absolute;
-    bottom: 0;
+    font-size:15px;
+    padding: 5px;
     width: 100%;
     text-align: center;
+    flex-shrink: 0;
   }
