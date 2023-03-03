@@ -1,6 +1,8 @@
 body {
     background-color: salmon;
     margin: 0;
+    height: 100%;
+    
   }
   .titulo {
     display: flex;
@@ -17,12 +19,15 @@ body {
     justify-content: center;
     text-align: center;
   }
+  main{
+    calc(100vh - 100px)
+  }
   footer {
+    position: bottom: ;
+    width: 100%;
     background-color: black;
     color: white;
-    font-size:15px;
-    padding: 5px;
-    width: 100%;
     text-align: center;
-    flex-shrink: 0;
-  }
+    padding: 8px;
+ }
+ 
